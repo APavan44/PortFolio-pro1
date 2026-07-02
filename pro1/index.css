@@ -1,0 +1,34 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, #0d6efd, #310c6c);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-box {
+    background: #3742a4;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
